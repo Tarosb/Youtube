@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Простой YouTube-плеер</title>
+</head>
+<body>
+    <h1>Простой YouTube-плеер</h1>
+    <div id="player"></div>
+
+    <script>
+        // Замените VIDEO_ID на ID YouTube-видео, которое вы хотите воспроизвести
+        const VIDEO_ID = 'VIDEO_ID';
+
+        // Создание плеера
+        const player = new YT.Player('player', {
+            height: '360',
+            width: '640',
+            videoId: VIDEO_ID,
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+        });
+
+        // Когда плеер готов
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+        // Обработка состояния плеера
+        function onPlayerStateChange(event) {
+            if (event.data === YT.PlayerState.ENDED) {
+                // Видео завершено
+                alert('Видео завершено');
+            }
+        }
+    </script>
+
+    <!-- Вставьте следующий скрипт для загрузки плеера YouTube API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
