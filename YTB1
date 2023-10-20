@@ -1,0 +1,56 @@
+class Video:
+    def __init__(self, titel, url):
+        self.titel = titel
+        self.url = url
+
+    def __str__(self):
+        return f"Titel: {self.titel}, URL: {self.url}"
+
+
+class YouTubeManager:
+    def __init__(self):
+        self.video_list = []
+
+    def video_hinzufuegen(self, titel, url):
+        neues_video = Video(titel, url)
+        self.video_list.append(neues_video)
+        print(f"Video '{titel}' wurde hinzugefügt.")
+
+    def videos_anzeigen(self):
+        print("YouTube-Videoliste:")
+        for index, video in enumerate(self.video_list, start=1):
+            print(f"{index}. {video}")
+
+    def video_entfernen(self, index):
+        if 1 <= index <= len(self.video_list):
+            entferntes_video = self.video_list.pop(index - 1)
+            print(f"Video '{entferntes_video.titel}' wurde entfernt.")
+        else:
+            print("Ungültiger Index. Bitte geben Sie eine gültige Nummer ein.")
+
+if __name__ == "__main__":
+    youtube_manager = YouTubeManager()
+
+    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")
