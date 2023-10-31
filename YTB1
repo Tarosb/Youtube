@@ -10,6 +10,9 @@ class Video:
 class YouTubeManager:
     def __init__(self):
         self.video_list = []
+class YouTubeManager:
+    def __init__(self):
+        self.video_list = []
 
     def video_hinzufuegen(self, titel, url):
         neues_video = Video(titel, url)
