@@ -7,6 +7,12 @@
     <h1>Простой YouTube-плеер</h1>
     <div id="player"></div>
 
+class YouTubeManager:
+    def __init__(self):
+        self.video_list = []
+class YouTubeManager:
+    def __init__(self):
+        self.video_list = []
     <script>
         // Замените VIDEO_ID на ID YouTube-видео, которое вы хотите воспроизвести
         const VIDEO_ID = 'VIDEO_ID';
