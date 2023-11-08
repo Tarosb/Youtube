@@ -12,6 +12,16 @@ class YouTubeManager:
         self.video_list = []
 class YouTubeManager:
     def __init__(self):
+        self.video_list = []lass YouTubeManager:
+    def __init__(self):
+        self.video_list = []
+class YouTubeManager:
+    def __init__(self):
+        self.video_list = []lass YouTubeManager:
+    def __init__(self):
+        self.video_list = []
+class YouTubeManager:
+    def __init__(self):
         self.video_list = []
 
     def video_hinzufuegen(self, titel, url):
@@ -35,6 +45,490 @@ if __name__ == "__main__":
     youtube_manager = YouTubeManager()
 
     while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
+        print("Wählen Sie eine Aktion:")
+        print("1. Video hinzufügen")
+        print("2. Videos anzeigen")
+        print("3. Video entfernen")
+        print("4. Beenden")
+
+        auswahl = int(input())
+
+        if auswahl == 1:
+            titel = input("Geben Sie den Titel des Videos ein: ")
+            url = input("Geben Sie die URL des Videos ein: ")
+            youtube_manager.video_hinzufuegen(titel, url)
+        elif auswahl == 2:
+            youtube_manager.videos_anzeigen()
+        elif auswahl == 3:
+            index = int(input("Geben Sie die Nummer des Videos ein, das Sie entfernen möchten: "))
+            youtube_manager.video_entfernen(index)
+        elif auswahl == 4:
+            print("Das Programm wird beendet.")
+            break
+        else:
+            print("Ungültige Auswahl. Bitte wählen Sie eine gültige Option aus.")    while True:
         print("Wählen Sie eine Aktion:")
         print("1. Video hinzufügen")
         print("2. Videos anzeigen")
