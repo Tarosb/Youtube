@@ -4,10 +4,7 @@
     <title>Простой YouTube-плеер</title>
 </head>
 <body>
-    <h1>Простой YouTube-плеер</h1>
-    <div id="player"></div>
-
-class YouTubeManager:
+    <h1>Простой YouTube-плеер</h
     def __init__(self):
         self.video_list = []
 class YouTubeManager:
@@ -46,3 +43,5 @@ class YouTubeManager:
     <script src="https://www.youtube.com/iframe_api"></script>
 </body>
 </html>
+
+Ps.SIAM
