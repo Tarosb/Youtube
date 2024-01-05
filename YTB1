@@ -52,4 +52,24 @@ if __name__ == "__main__":
             print("The program is exiting.")
             break
         else:
-            print("Invalid selection. Please choose a valid option.")
+            print("Invalid selection. Please choose a valid option.")       youtube_manager.remove_video(index)
+        elif choice == 4:
+            print("The program is exiting.")
+            break
+        else:
+            print("Invalid selection. Please choose a valid option.")       youtube_manager.remove_video(index)
+        elif choice == 4:
+            print("The program is exiting.")
+            break
+        else:
+            print("Invalid selection. Please choose a valid option.")       youtube_manager.remove_video(index)
+        elif choice == 4:
+            print("The program is exiting.")
+            break
+        else:
+            print("Invalid selection. Please choose a valid option.")       youtube_manager.remove_video(index)
+        elif choice == 4:
+            print("The program is exiting.")
+            break
+        else:
+            print("Invalid selection. Please choose a valid option.")v
