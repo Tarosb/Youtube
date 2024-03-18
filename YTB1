@@ -12,22 +12,7 @@ class YouTubeManager:
 
     def add_video(self, title, url):
         new_video = Video(title, url)
-        self.video_list.append(new_video)
-        print(f"Video '{title}' has been added.")
-
-    def show_videos(self):
-        print("YouTube Video List:")
-        for index, video in enumerate(self.video_list, start=1):
-            print(f"{index}. {video}")
-
-    def remove_video(self, index):
-        if 1 <= index <= len(self.video_list):
-            removed_video = self.video_list.pop(index - 1)
-            print(f"Video '{removed_video.title}' has been removed.")
-        else:
-            print("Invalid index. Please enter a valid number.")
-
-if __name__ == "__main__":
+      
     youtube_manager = YouTubeManager()
 
     while True:
