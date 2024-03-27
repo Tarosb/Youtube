@@ -3,21 +3,7 @@ class Video:
         self.title = title
         self.url = url
 
-    def __str__(self):
-        return f"Title: {self.title}, URL: {self.url}"
 
-class YouTubeManager:
-    def __init__(self):
-        self.video_list = []
-
-    def add_video(self, title, url):
-        new_video = Video(title, url)
-      
-    youtube_manager = YouTubeManager()
-
-    while True:
-        print("Select an action:")
-        print("1. Add video")
         print("2. Show videos")
         print("3. Remove video")
         print("4. Exit")
