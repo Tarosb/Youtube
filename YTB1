@@ -12,3 +12,31 @@ class Video:
 
         else:
             print("Invalid selection. Please choose a valid option.")v
+class Video:
+    def __init__(self, title, url):
+        self.title = title
+        self.url = url
+
+
+        print("2. Show videos")
+        print("3. Remove video")
+        print("4. Exit")
+
+        choice = int(input())
+
+        else:
+            print("Invalid selection. Please choose a valid option.")v
+class Video:
+    def __init__(self, title, url):
+        self.title = title
+        self.url = url
+
+
+        print("2. Show videos")
+        print("3. Remove video")
+        print("4. Exit")
+
+        choice = int(input())
+
+        else:
+            print("Invalid selection. Please choose a valid option.")v
