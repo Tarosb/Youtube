@@ -4,13 +4,7 @@ class Video:
         self.url = url
 
 
-        print("2. Show videos")
-        print("3. Remove video")
-        print("4. Exit")
-
-        choice = int(input())
-
-        else:
+        print("2
             print("Invalid selection. Please choose a valid option.")v
 class Video:
     def __init__(self, title, url):
