@@ -9,13 +9,7 @@ class Video:
 class Video:
     def __init__(self, title, url):
         self.title = title
-        self.url = url
-
-
-        print("2. Show videos")
-        print("3. Remove video")
-        print("4. Exit")
-
+        self.url = ur
         choice = int(input())
 
         else:
